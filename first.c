@@ -1,8 +1,20 @@
 #include <stdio.h>
-int main()
+ void jolly(void);
+ void deny(void);
+ int main(void)
 {
-    int old,day;
-    scanf("%d",&day);
-    old=day*365;
-   printf("%d,%d.\n",old,day);
+    jolly();
+    jolly();
+    jolly();
+    deny();
+    return 0;
+    
+}
+void jolly(void)
+{
+    printf("For he's a jolly good fellow.\n");
+}
+void deny(void)
+{
+    printf("Which nobody can deny.\n");
 }
