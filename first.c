@@ -2,11 +2,10 @@
 #include <stdio.h>
 int main(void)
 {  
-  int i=1,sum=0;
-  while(i<=10)
+  int i,sum;
+  for(i=1,sum=0;i<=10;i++)
   {
     sum+=i;
-    i++;
   }
   printf("sum=%d",sum);
 }
