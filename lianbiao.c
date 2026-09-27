@@ -129,6 +129,7 @@ int main(void)
     printn(head);//遍历打印
     int i=check(head,12);//算位置
     printf("12储存在第%d个节点。\n",i);//找某个数并显示是第几个
+    free(head);
     return 0;
 }
 
